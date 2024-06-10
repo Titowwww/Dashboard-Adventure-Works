@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 db_conn_str = 'mysql+mysqlconnector://root:@localhost:3306/aw'
-engine =create_engine(db_conn_str)
+engine = create_engine(db_conn_str)
 
 st.title('Adventure Works Dashboard')
 
